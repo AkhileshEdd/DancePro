@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "477881796551",
+    "firebase_url": "https://dancepro-8f43b.firebaseio.com",
+    "project_id": "dancepro-8f43b",
+    "storage_bucket": "dancepro-8f43b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477881796551:android:dff1ee1506e80ab68b7be2",
+        "android_client_info": {
+          "package_name": "com.example.dancepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477881796551-eqhtnbrphp2tubhbsmmc5hmf0cng4aks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dancepro",
+            "certificate_hash": "a0b217400865d7f3e90fd0093d364aaac23618da"
+          }
+        },
+        {
+          "client_id": "477881796551-nhnjrakd919cl9lql3tf3ddpsem7qvhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa-e0KLA4rdIGwgnGR2V1LNJEkwpNPHJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477881796551-nhnjrakd919cl9lql3tf3ddpsem7qvhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

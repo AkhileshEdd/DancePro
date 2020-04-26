@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo2"
+            android:alpha="0.5"></ImageView>
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn Dance"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/loginEmail"
+        android:hint="Email"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <LinearLayout
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Remember"
+            android:layout_weight="1"
+            android:buttonTint="@android:color/white"/>
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Forgot Password"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signin"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.3"
+        android:background="@drawable/shape_button_login"
+        android:text="SIGN IN"/>
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_signup_button"
+        android:letterSpacing="0.3"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_marginLeft="175dp"
+        android:visibility="invisible"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
+
+
+</ScrollView>

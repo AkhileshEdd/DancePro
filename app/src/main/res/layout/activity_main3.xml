@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Main3Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:background="@drawable/profile"
+            android:onClick="uploadpic"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/pname"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/pemail"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/pphone"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:onClick="logout"
+            style="@android:style/ButtonBar"
+            android:text="LOGOUT"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColorHighlight="@android:color/holo_blue_light"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/verifymsg"
+            android:visibility="gone"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="Email not verified !!"/>
+        <Button
+            android:id="@+id/verifybtn"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="verify now"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
